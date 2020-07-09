@@ -1,0 +1,39 @@
+{
+  "name": "coffee-pages",
+  "version": "0.1.0",
+  "description": "coffee float gulp project",
+  "keywords": [
+    "coffee-pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/coffeefloat/coffee-pages#readme",
+  "bugs": {
+    "url": "https://github.com/coffeefloat/coffee-pages/issues"
+  },
+  "license": "MIT",
+  "author": "yang <fanForwardForever@163.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coffeefloat/coffee-pages.git"
+  },
+  "scripts": {
+    "lint": "standard --fix",
+    "test": "ava"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "standard": "^14.3.4"
+  },
+  "engines": {
+    "node": ">=8"
+  }
+}
